@@ -17,5 +17,6 @@ public class UserModelAdvice {
 			model.addAttribute("user", auth.getPrincipal());
 		}
 	}
-	
+	//there is also and ExceptionAttribute that will catch exceptions anywhere
+	//advice is run first before any other methods (after authentication)
 }

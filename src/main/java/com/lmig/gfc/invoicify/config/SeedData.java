@@ -31,5 +31,5 @@ public class SeedData {
 		user.addRole("ACCOUNTANT");
 		userRepository.save(user);
 	}
-
 }
+
